@@ -1,0 +1,9 @@
+File directory structure
+data
+|___images
+|	|___train
+|	|___val
+|___labels
+|	|___train
+|	|___val
+|___data.yaml

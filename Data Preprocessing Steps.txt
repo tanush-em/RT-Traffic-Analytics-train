@@ -1,0 +1,16 @@
+DATA PREPROCESSING STEPS
+
+	1. IMAGE SCALING
+		- All training images are set to maintain same aspect ratio
+		- The images are then rescaled to 416 x 416 px
+		- "rescale.ipynb" is the script used in this step of preprocessing 
+
+	2. DATA ANNOTATION
+		- Used makesense.AI for annotations
+		- Exported in YOLO Format
+		- class info
+			0 - car
+			1 - bus
+			2 - two-wheeler
+			3 - heavy-vehicle
+			4 - auto-rickshaw
