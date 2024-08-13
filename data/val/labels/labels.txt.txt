@@ -1,5 +1,0 @@
-car
-bus
-two-wheeler
-heavy-vehicle
-auto-rickshaw

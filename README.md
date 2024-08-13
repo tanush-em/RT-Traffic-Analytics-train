@@ -1,7 +1,6 @@
-# RT-Traffic-Analytics-train
+# RT-Traffic-Analytics
 
 RT-Traffic-Analytics is a real-time traffic analysis tool that utilizes a YOLOv8 model for object detection and the DeepSORT algorithm for object tracking. 
-*This repository is dedicated to ONLY training the model on custom data .*
 This project is designed to analyze video footage and count unique vehicles, categorized into different classes such as cars, buses, two-wheelers, heavy vehicles, and auto-rickshaws.
 
 ## Features
@@ -19,9 +18,3 @@ This project is designed to analyze video footage and count unique vehicles, cat
 - OpenCV
 - NumPy
 - deep-sort-realtime (Deep Simple Online and Realtime Tracking)
-
-## Workflow
-- First follow the Preprocessing steps as instructed in the *Data Preprocessing Steps.txt*
-- Setup the directory as instructed in the *file_directory_structure.txt*
-- Configure *data.yaml*
-- Start training using *custom_train.ipynb* 
